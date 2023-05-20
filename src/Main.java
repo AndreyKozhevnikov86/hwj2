@@ -7,10 +7,10 @@ public class Main {
         int itogcheck1 = check + popolnenie + bonus;
 
         if (popolnenie >= 1000) {
-            System.out.println("Итоговая сумма на счету клиента:" + itogcheck1);
-            System.out.println("Бонус:" + bonus);
+            System.out.println("Итоговая сумма на счету клиента составит:" + itogcheck1);
+            System.out.println("Бонус составит:" + bonus);
         } else {
-            System.out.println("Итоговая сумма на счету клиента:" + itogchek2);
+            System.out.println("Итоговая сумма на счету клиента составит:" + itogchek2);
             System.out.println("Бонуса нет");
         }
     }
